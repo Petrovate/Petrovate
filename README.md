@@ -1,17 +1,19 @@
+## Petrovate
+
+Petrovate is a revolutionary digitalization solution for gas stations, introducing smarter and more efficient fuel management. Built on a Java platform and adhering to the principles of Object-Oriented Programming (OOP), Petrovate offers a comprehensive suite of features to streamline operations, enhance customer experience, and optimize profitability for gas station businesses.
+
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Folder Structure
+## Setup
+[![WORK IN PROGRESS](https://badge.ttsalpha.com/api?icon=dependabot&status=WORK IN PROGRESS&color=red)](https://example.com)
 
-The workspace contains two folders by default, where:
+## USAGE
+[![WORK IN PROGRESS](https://badge.ttsalpha.com/api?icon=dependabot&status=WORK IN PROGRESS&color=red)](https://example.com)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Documentation
+[![WORK IN PROGRESS](https://badge.ttsalpha.com/api?icon=dependabot&status=WORK IN PROGRESS&color=red)](https://example.com)
 
 ## Dependency Management
 
