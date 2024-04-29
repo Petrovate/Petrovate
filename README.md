@@ -7,13 +7,11 @@ Petrovate is a revolutionary digitalization solution for gas stations, introduci
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ## Setup
-[![WORK IN PROGRESS](https://badge.ttsalpha.com/api?icon=dependabot&status=WORK IN PROGRESS&color=red)](https://example.com)
-
+![](https://badge.ttsalpha.com/api?icon=dependabot&status=WIP&color=red)
 ## USAGE
-[![WORK IN PROGRESS](https://badge.ttsalpha.com/api?icon=dependabot&status=WORK IN PROGRESS&color=red)](https://example.com)
-
+![](https://badge.ttsalpha.com/api?icon=dependabot&status=WIP&color=red)
 ## Documentation
-[![WORK IN PROGRESS](https://badge.ttsalpha.com/api?icon=dependabot&status=WORK IN PROGRESS&color=red)](https://example.com)
+![](https://badge.ttsalpha.com/api?icon=dependabot&status=WIP&color=red)
 
 ## Dependency Management
 
