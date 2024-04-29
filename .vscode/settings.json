@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/home/ramonwise/Downloads/openjfx-22.0.1_linux-x64_bin-sdk/javafx-sdk-22.0.1/lib/javafx.base.jar",
+        "/home/ramonwise/Downloads/openjfx-22.0.1_linux-x64_bin-sdk/javafx-sdk-22.0.1/lib/javafx.controls.jar",
+        "/home/ramonwise/Downloads/openjfx-22.0.1_linux-x64_bin-sdk/javafx-sdk-22.0.1/lib/javafx.fxml.jar",
+        "/home/ramonwise/Downloads/openjfx-22.0.1_linux-x64_bin-sdk/javafx-sdk-22.0.1/lib/javafx.graphics.jar",
+        "/home/ramonwise/Downloads/openjfx-22.0.1_linux-x64_bin-sdk/javafx-sdk-22.0.1/lib/javafx.media.jar",
+        "/home/ramonwise/Downloads/openjfx-22.0.1_linux-x64_bin-sdk/javafx-sdk-22.0.1/lib/javafx.swing.jar",
+        "/home/ramonwise/Downloads/openjfx-22.0.1_linux-x64_bin-sdk/javafx-sdk-22.0.1/lib/javafx.web.jar",
+        "/home/ramonwise/Downloads/openjfx-22.0.1_linux-x64_bin-sdk/javafx-sdk-22.0.1/lib/javafx-swt.jar"
+    ]
+}
