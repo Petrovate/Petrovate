@@ -15,7 +15,7 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "Petrovate_60195c1d",
+            "projectName": "Petrovate",
             "vmArgs": "--module-path JavaFX/lib --add-modules javafx.swing,javafx.graphics,javafx.fxml,javafx.media,javafx.controls"
         }
     ]
