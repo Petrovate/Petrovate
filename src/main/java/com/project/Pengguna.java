@@ -44,7 +44,7 @@ public abstract class Pengguna {
         return super.toString();
     }
 
-    public login() {
+    public login(login) {
         return login;
     }
 }

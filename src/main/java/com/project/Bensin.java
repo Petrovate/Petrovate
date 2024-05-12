@@ -2,7 +2,7 @@ package com.project;
 
 public class Bensin {
 
-    private Character id;
+    private char id;
     private String name;
     private Brand brand;
     private double stock;
