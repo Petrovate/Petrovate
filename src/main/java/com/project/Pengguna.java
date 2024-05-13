@@ -1,19 +1,18 @@
 package com.project;
 
-public class Bensin{
+public abstract class Pengguna {
+    
     private char id;
     private String name;
-    private Brand brand;
-    private double stock;
+    private String pass;
+    private Enum level;
 
-    Bensin(char id, String name, Brand brand, double stock){
-
+    Pengguna(char id, String name, String pass, Enum level){
     }
 
     public char getId() {
         return id;
     }
-
     public void setId(char id) {
         this.id = id;
     }
@@ -26,16 +25,20 @@ public class Bensin{
         this.name = name;
     }
 
-    public Brand getBrand() {
-        return brand;
+    public String getPass() {
+        return pass;
     }
 
-    public double getStock() {
-        return stock;
+    public void setPass(String pass) {
+        this.pass = pass;
     }
 
-    public void setStock(double stock) {
-        this.stock = stock;
+    public Enum getLevel() {
+        return level;
+    }
+
+    public void setLevel(Enum level) {
+        this.level = level;
     }
 
     @Override
@@ -44,4 +47,5 @@ public class Bensin{
         return super.toString();
     }
 
+    
 }
