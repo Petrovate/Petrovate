@@ -7,9 +7,6 @@ public abstract class Pengguna {
     private String pass;
     private Enum level;
 
-    Pengguna(char id, String name, String pass, Enum level){
-    }
-
     public char getId() {
         return id;
     }
@@ -47,5 +44,5 @@ public abstract class Pengguna {
         return super.toString();
     }
 
-    
+
 }
