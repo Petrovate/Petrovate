@@ -4,4 +4,6 @@ module com.project {
 
     opens com.project to javafx.fxml;
     exports com.project;
+    requires com.fasterxml.jackson.databind;
+    
 }

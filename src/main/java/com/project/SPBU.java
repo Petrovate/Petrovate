@@ -1,38 +1,43 @@
 package com.project;
-
-public class SPBU {
+public class SPBU extends JsonFileReader {
     
-    private char id;
+    private int id;
     private Brand brand;
-    private Bensin name;
     private String alamat;
+    private Bensin bensin;
 
     SPBU(char id, Brand brand, Bensin name, String alamat){
-        
+      this.id = id;
+        this.brand = brand;
+        this.alamat = alamat;  
     }
 
-    public char getId() {
-        return id;
+    public int getId() {
+        return this.id;
     }
 
-    public void setId(SPBU id) {
+    public void setId(char id) {
         this.id = id;
     }
 
     public Brand getBrand() {
-        return brand;
-    }
-
-    public Bensin getName() {
-        return name;
+        return this.brand;
     }
 
     public String getAlamat(){
-        return alamat;
+        return this.alamat;
     }
 
-    public void setAlamat(SPBU alamat){
+    public Bensin getBensin(){
+        return this.bensin;
+    }
+
+    public void setAlamat(String alamat){
         this.alamat = alamat;
+    }
+    
+    public void printSPBU(){
+        JsonFileReader.getSPBUData(this.id);
     }
     
 }
