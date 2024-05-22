@@ -1,5 +1,4 @@
 package com.project;
-
 public class SPBU {
     
     private char id;
@@ -8,31 +7,41 @@ public class SPBU {
     private String alamat;
 
     SPBU(char id, Brand brand, Bensin name, String alamat){
-        
+      this.id = id;
+        this.brand = brand;
+        this.name = name;
+        this.alamat = alamat;  
     }
 
     public char getId() {
-        return id;
+        return this.id;
     }
 
-    public void setId(SPBU id) {
+    public void setId(char id) {
         this.id = id;
     }
 
     public Brand getBrand() {
-        return brand;
+        return this.brand;
     }
 
     public Bensin getName() {
-        return name;
+        return this.name;
     }
 
     public String getAlamat(){
-        return alamat;
+        return this.alamat;
     }
 
-    public void setAlamat(SPBU alamat){
+    public void setAlamat(String alamat){
         this.alamat = alamat;
+    }
+    
+    public void printSPBU(){
+        System.out.println("ID SPBU: " + this.id);
+        System.out.println("Brand: " + this.brand);
+        System.out.println("Nama Bensin: " + this.name);
+        System.out.println("Alamat: " + this.alamat);
     }
     
 }

@@ -1,8 +1,7 @@
 [
-    {
+{
       "nama": "SPBU Pertamina 64.761.12 - Batu Ampar KM.4,5",
       "brand": "Pertamina",
-      "RON": "90",
       "jenis": "Pertalite",
       "stock": 0,
       "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
@@ -10,7 +9,6 @@
     {
       "nama": "SPBU Pertamina 64.761.12 - Batu Ampar KM.4,5",
       "brand": "Pertamina",
-      "RON": "92",
       "jenis": "Pertamax",
       "stock": 0,
       "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
@@ -18,7 +16,6 @@
     {
       "nama": "SPBU Pertamina 64.761.12 - Batu Ampar KM.4,5",
       "brand": "Pertamina",
-      "RON": "98",
       "jenis": "Pertamax Turbo",
       "stock": 0,
       "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
@@ -26,7 +23,6 @@
     {
       "nama": "SPBU Pertamina 64.761.02 - Gunung Malang",
       "brand": "Pertamina",
-      "RON": "90",
       "jenis": "Pertalite",
       "stock": 0,
       "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
@@ -34,7 +30,6 @@
     {
       "nama": "SPBU Pertamina 64.761.02 - Gunung Malang",
       "brand": "Pertamina",
-      "RON": "92",
       "jenis": "Pertamax",
       "stock": 0,
       "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
@@ -42,7 +37,6 @@
     {
       "nama": "SPBU Pertamina 64.761.02 - Gunung Malang",
       "brand": "Pertamina",
-      "RON": "98",
       "jenis": "Pertamax Turbo",
       "stock": 0,
       "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
@@ -50,7 +44,6 @@
     {
       "nama": "SPBU Pertamina 64.761.10 KM 15",
       "brand": "Pertamina",
-      "RON": "90",
       "jenis": "Pertalite",
       "stock": 0,
       "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127 "
@@ -58,7 +51,6 @@
     {
       "nama": "SPBU Pertamina 64.761.10 KM 15",
       "brand": "Pertamina",
-      "RON": "92",
       "jenis": "Pertamax",
       "stock": 0,
       "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127"
@@ -66,7 +58,6 @@
     {
       "nama": "SPBU Pertamina 64.761.10 KM 15",
       "brand": "Pertamina",
-      "RON": "Cn 48",
       "jenis": "Solar",
       "stock": 0,
       "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127"
@@ -74,7 +65,6 @@
     {
       "nama": "Shell Graha Raya 1",
       "brand": "Shell",
-      "RON": "92",
       "jenis": "Shell Super",
       "stock": 0,
       "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
@@ -82,7 +72,6 @@
     {
       "nama": "Shell Graha Raya 1",
       "brand": "Shell",
-      "RON": "95",
       "jenis": "Shell V-Power",
       "stock": 0,
       "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
@@ -90,7 +79,6 @@
     {
       "nama": "Shell Graha Raya 1",
       "brand": "Shell",
-      "RON": "98",
       "jenis": "Shell V-Power Nitro+",
       "stock": 0,
       "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
@@ -98,7 +86,6 @@
     {
       "nama": "SPBU Shell Joglo Raya",
       "brand": "Shell",
-      "RON": "92",
       "jenis": "Shell Super",
       "stock": 0,
       "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
@@ -106,7 +93,6 @@
     {
       "nama": "SPBU Shell Joglo Raya",
       "brand": "Shell",
-      "RON": "95",
       "jenis": "Shell V-Power",
       "stock": 0,
       "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
@@ -114,7 +100,6 @@
     {
       "nama": "SPBU Shell Joglo Raya",
       "brand": "Shell",
-      "RON": "98",
       "jenis": "Shell V-Power Nitro+",
       "stock": 0,
       "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
@@ -122,7 +107,6 @@
     {
       "nama": "SPBU VIVO Cilandak",
       "brand": "Vivo",
-      "RON": "90",
       "jenis": "Revvo 90",
       "stock": 0,
       "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
@@ -130,7 +114,6 @@
     {
       "nama": "SPBU VIVO Cilandak",
       "brand": "Vivo",
-      "RON": "92",
       "jenis": "Revvo 92",
       "stock": 0,
       "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
@@ -138,7 +121,6 @@
     {
       "nama": "SPBU VIVO Cilandak",
       "brand": "Vivo",
-      "RON": "95",
       "jenis": "Revvo 95",
       "stock": 0,
       "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
@@ -146,7 +128,6 @@
     {
       "nama": "SPBU VIVO Kedoya",
       "brand": "Vivo",
-      "RON": "90",
       "jenis": "Revvo 90",
       "stock": 0,
       "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
@@ -154,7 +135,6 @@
     {
       "nama": "SPBU VIVO Kedoya",
       "brand": "Vivo",
-      "RON": "92",
       "jenis": "Revvo 92",
       "stock": 0,
       "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
@@ -162,7 +142,6 @@
     {
       "nama": "SPBU VIVO Kedoya",
       "brand": "Vivo",
-      "RON": "95",
       "jenis": "Revvo 95",
       "stock": 0,
       "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
@@ -170,7 +149,6 @@
     {
       "nama": "SPBU BP-AKR Metland Cyber City",
       "brand": "Bp",
-      "RON": "92",
       "jenis": "Bp Unleaded 92 ",
       "stock": 0,
       "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
@@ -178,7 +156,6 @@
     {
       "nama": "SPBU BP-AKR Metland Cyber City",
       "brand": "Bp",
-      "RON": "Cn 53",
       "jenis": "Bp Diesel",
       "stock": 0,
       "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
@@ -186,7 +163,6 @@
     {
       "nama": "SPBU BP-AKR Metland Cyber City",
       "brand": "Bp",
-      "RON": "95",
       "jenis": "Bp Ultimate",
       "stock": 0,
       "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
@@ -194,7 +170,6 @@
     {
       "nama": "SPBU BP Joglo Raya",
       "brand": "Bp",
-      "RON": "92",
       "jenis": "Bp Unleaded 92 ",
       "stock": 0,
       "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
@@ -202,7 +177,6 @@
     {
       "nama": "SPBU BP Joglo Raya",
       "brand": "Bp",
-      "RON": "Cn 53",
       "jenis": "Bp Diesel",
       "stock": 0,
       "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
@@ -210,10 +184,9 @@
     {
       "nama": "SPBU BP Joglo Raya",
       "brand": "Bp",
-      "RON": "95",
       "jenis": "Bp Ultimate",
       "stock": 0,
       "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
     }
-  ]
+]
   
