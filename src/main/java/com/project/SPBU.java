@@ -1,19 +1,18 @@
 package com.project;
-public class SPBU {
+public class SPBU extends JsonFileReader {
     
-    private char id;
+    private int id;
     private Brand brand;
-    private Bensin name;
     private String alamat;
+    private Bensin bensin;
 
     SPBU(char id, Brand brand, Bensin name, String alamat){
       this.id = id;
         this.brand = brand;
-        this.name = name;
         this.alamat = alamat;  
     }
 
-    public char getId() {
+    public int getId() {
         return this.id;
     }
 
@@ -25,12 +24,12 @@ public class SPBU {
         return this.brand;
     }
 
-    public Bensin getName() {
-        return this.name;
-    }
-
     public String getAlamat(){
         return this.alamat;
+    }
+
+    public Bensin getBensin(){
+        return this.bensin;
     }
 
     public void setAlamat(String alamat){
@@ -38,10 +37,7 @@ public class SPBU {
     }
     
     public void printSPBU(){
-        System.out.println("ID SPBU: " + this.id);
-        System.out.println("Brand: " + this.brand);
-        System.out.println("Nama Bensin: " + this.name);
-        System.out.println("Alamat: " + this.alamat);
+        JsonFileReader.getSPBUData(this.id);
     }
     
 }

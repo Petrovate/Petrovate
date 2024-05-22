@@ -1,8 +1,9 @@
 [
 {
-      "nama": "SPBU Pertamina 64.761.12 - Batu Ampar KM.4,5",
-      "brand": "Pertamina",
+      "nama": "SPBU Pertamina 64.761.12 - Batu Ampar KM.4,5", //hapus
+      "brand": "Pertamina",//hapus
       "jenis": "Pertalite",
+      "id": 1,
       "stock": 0,
       "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
     },
