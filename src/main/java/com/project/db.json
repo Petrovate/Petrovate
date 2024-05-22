@@ -1,75 +1,137 @@
 [
-    {
-      "nama": "A",
-      "brand": "Pertamina",
-      "RON": "90",
-      "jenis": "Pertalite",
-      "stock": 0,
-      "alamat": ""
-    },
-    {
-      "nama": "B",
-      "brand": "Pertamina",
-      "RON": "92",
-      "jenis": "Pertamax",
-      "stock": 0,
-      "alamat": ""
-    },
-    {
-      "nama": "C",
-      "brand": "Pertamina",
-      "RON": "98",
-      "jenis": "Pertamax Turbo",
-      "stock": 0,
-      "alamat": ""
-    },
-    {
-      "nama": "D",
-      "brand": "Shell",
-      "RON": "92",
-      "jenis": "Shell Super",
-      "stock": 0,
-      "alamat": ""
-    },
-    {
-      "nama": "E",
-      "brand": "Shell",
-      "RON": "95",
-      "jenis": "Shell V-Power",
-      "stock": 0,
-      "alamat": ""
-    },
-    {
-      "nama": "F",
-      "brand": "Shell",
-      "RON": "98",
-      "jenis": "Shell V-Power Nitro+",
-      "stock": 0,
-      "alamat": ""
-    },
-    {
-      "nama": "G",
-      "brand": "Vivo",
-      "RON": "90",
-      "jenis": "Revvo 90",
-      "stock": 0,
-      "alamat": ""
-    },
-    {
-      "nama": "H",
-      "brand": "Vivo",
-      "RON": "92",
-      "jenis": "Revvo 92",
-      "stock": 0,
-      "alamat": ""
-    },
-    {
-      "nama": "I",
-      "brand": "Vivo",
-      "RON": "95",
-      "jenis": "Revvo 95",
-      "stock": 0,
-      "alamat": ""
-    }
-  ]
-  
+  {
+    "jenis": "Pertalite",
+    "id": 1,
+    "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
+  },
+  {
+    "jenis": "Pertamax",
+    "id": 2,
+    "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
+  },
+  {
+    "jenis": "Pertamax Turbo",
+    "id": 3,
+    "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
+  },
+  {
+    "jenis": "Pertalite",
+    "id": 4,
+    "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
+  },
+  {
+    "jenis": "Pertamax",
+    "id": 5,
+    "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
+  },
+  {
+    "jenis": "Pertamax Turbo",
+    "id": 6,
+    "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
+  },
+  {
+    "jenis": "Pertalite",
+    "id": 7,
+    "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127 "
+  },
+  {
+    "jenis": "Pertamax",
+    "id": 8,
+    "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127"
+  },
+  {
+    "jenis": "Solar",
+    "id": 9,
+    "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127"
+  },
+  {
+    "jenis": "Shell Super",
+    "id": 10,
+    "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
+  },
+  {
+    "jenis": "Shell V-Power",
+    "id": 11,
+    "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
+  },
+  {
+    "jenis": "Shell V-Power Nitro+",
+    "id": 12,
+    "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
+  },
+  {
+    "jenis": "Shell Super",
+    "id": 13,
+    "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  },
+  {
+    "jenis": "Shell V-Power",
+    "id": 14,
+    "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  },
+  {
+    "jenis": "Shell V-Power Nitro+",
+    "id": 15,
+    "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  },
+  {
+    "jenis": "Revvo 90",
+    "id": 16,
+    "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
+  },
+  {
+    "jenis": "Revvo 92",
+    "id": 17,
+    "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
+  },
+  {
+    "jenis": "Revvo 95",
+    "id": 18,
+    "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
+  },
+  {
+    "jenis": "Revvo 90",
+    "id": 19,
+    "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
+  },
+  {
+    "jenis": "Revvo 92",
+    "id": 20,
+    "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
+  },
+  {
+    "jenis": "Revvo 95",
+    "id": 21,
+    "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
+  },
+  {
+    "jenis": "Bp Unleaded 92 ",
+    "id": 22,
+    "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
+  },
+  {
+    "jenis": "Bp Diesel",
+    "id": 23,
+    "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
+  },
+  {
+    "jenis": "Bp Ultimate",
+    "id": 24,
+    "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
+  },
+  {
+    "jenis": "Bp Unleaded 92 ",
+    "id": 25,
+    "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  },
+  {
+    "jenis": "Bp Diesel",
+    "id": 26,
+    "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  },
+  {
+    "jenis": "Bp Ultimate",
+    "id": 27,
+    "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  }
+]
