@@ -1,24 +1,24 @@
 package com.project;
 
 public class Brand {
-
     private String brand;
-    private char id;
+    private int id;
 
-    Brand(String brand, char id){
-
+    Brand(String brand, int id){
+        this.brand = brand;
+        this.id = id;
     }
         
     public String getBrand() {
-        return brand;
+        return this.brand;
     }
 
     public void setBrand(String brand) {
         this.brand = brand;
     }
 
-    public char getId() {
-        return id;
+    public int getId() {
+        return this.id;
     }
 
     public void setId(char id) {
@@ -28,6 +28,6 @@ public class Brand {
     @Override
     public String toString() {
         // TODO Auto-generated method stub
-        return super.toString();
+        return "ID: " + this.id + "\n" + "Brand: " + this.brand + "\n";
     }
 }

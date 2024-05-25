@@ -1,193 +1,137 @@
 [
-{
-      "nama": "SPBU Pertamina 64.761.12 - Batu Ampar KM.4,5", //hapus
-      "brand": "Pertamina",//hapus
-      "jenis": "Pertalite",
-      "id": 1,
-      "stock": 0,
-      "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
-    },
-    {
-      "nama": "SPBU Pertamina 64.761.12 - Batu Ampar KM.4,5",
-      "brand": "Pertamina",
-      "jenis": "Pertamax",
-      "stock": 0,
-      "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
-    },
-    {
-      "nama": "SPBU Pertamina 64.761.12 - Batu Ampar KM.4,5",
-      "brand": "Pertamina",
-      "jenis": "Pertamax Turbo",
-      "stock": 0,
-      "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
-    },
-    {
-      "nama": "SPBU Pertamina 64.761.02 - Gunung Malang",
-      "brand": "Pertamina",
-      "jenis": "Pertalite",
-      "stock": 0,
-      "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
-    },
-    {
-      "nama": "SPBU Pertamina 64.761.02 - Gunung Malang",
-      "brand": "Pertamina",
-      "jenis": "Pertamax",
-      "stock": 0,
-      "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
-    },
-    {
-      "nama": "SPBU Pertamina 64.761.02 - Gunung Malang",
-      "brand": "Pertamina",
-      "jenis": "Pertamax Turbo",
-      "stock": 0,
-      "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
-    },
-    {
-      "nama": "SPBU Pertamina 64.761.10 KM 15",
-      "brand": "Pertamina",
-      "jenis": "Pertalite",
-      "stock": 0,
-      "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127 "
-    },
-    {
-      "nama": "SPBU Pertamina 64.761.10 KM 15",
-      "brand": "Pertamina",
-      "jenis": "Pertamax",
-      "stock": 0,
-      "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127"
-    },
-    {
-      "nama": "SPBU Pertamina 64.761.10 KM 15",
-      "brand": "Pertamina",
-      "jenis": "Solar",
-      "stock": 0,
-      "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127"
-    },
-    {
-      "nama": "Shell Graha Raya 1",
-      "brand": "Shell",
-      "jenis": "Shell Super",
-      "stock": 0,
-      "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
-    },
-    {
-      "nama": "Shell Graha Raya 1",
-      "brand": "Shell",
-      "jenis": "Shell V-Power",
-      "stock": 0,
-      "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
-    },
-    {
-      "nama": "Shell Graha Raya 1",
-      "brand": "Shell",
-      "jenis": "Shell V-Power Nitro+",
-      "stock": 0,
-      "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
-    },
-    {
-      "nama": "SPBU Shell Joglo Raya",
-      "brand": "Shell",
-      "jenis": "Shell Super",
-      "stock": 0,
-      "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
-    },
-    {
-      "nama": "SPBU Shell Joglo Raya",
-      "brand": "Shell",
-      "jenis": "Shell V-Power",
-      "stock": 0,
-      "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
-    },
-    {
-      "nama": "SPBU Shell Joglo Raya",
-      "brand": "Shell",
-      "jenis": "Shell V-Power Nitro+",
-      "stock": 0,
-      "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
-    },
-    {
-      "nama": "SPBU VIVO Cilandak",
-      "brand": "Vivo",
-      "jenis": "Revvo 90",
-      "stock": 0,
-      "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
-    },
-    {
-      "nama": "SPBU VIVO Cilandak",
-      "brand": "Vivo",
-      "jenis": "Revvo 92",
-      "stock": 0,
-      "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
-    },
-    {
-      "nama": "SPBU VIVO Cilandak",
-      "brand": "Vivo",
-      "jenis": "Revvo 95",
-      "stock": 0,
-      "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
-    },
-    {
-      "nama": "SPBU VIVO Kedoya",
-      "brand": "Vivo",
-      "jenis": "Revvo 90",
-      "stock": 0,
-      "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
-    },
-    {
-      "nama": "SPBU VIVO Kedoya",
-      "brand": "Vivo",
-      "jenis": "Revvo 92",
-      "stock": 0,
-      "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
-    },
-    {
-      "nama": "SPBU VIVO Kedoya",
-      "brand": "Vivo",
-      "jenis": "Revvo 95",
-      "stock": 0,
-      "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
-    },
-    {
-      "nama": "SPBU BP-AKR Metland Cyber City",
-      "brand": "Bp",
-      "jenis": "Bp Unleaded 92 ",
-      "stock": 0,
-      "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
-    },
-    {
-      "nama": "SPBU BP-AKR Metland Cyber City",
-      "brand": "Bp",
-      "jenis": "Bp Diesel",
-      "stock": 0,
-      "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
-    },
-    {
-      "nama": "SPBU BP-AKR Metland Cyber City",
-      "brand": "Bp",
-      "jenis": "Bp Ultimate",
-      "stock": 0,
-      "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
-    },
-    {
-      "nama": "SPBU BP Joglo Raya",
-      "brand": "Bp",
-      "jenis": "Bp Unleaded 92 ",
-      "stock": 0,
-      "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
-    },
-    {
-      "nama": "SPBU BP Joglo Raya",
-      "brand": "Bp",
-      "jenis": "Bp Diesel",
-      "stock": 0,
-      "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
-    },
-    {
-      "nama": "SPBU BP Joglo Raya",
-      "brand": "Bp",
-      "jenis": "Bp Ultimate",
-      "stock": 0,
-      "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
-    }
+  {
+    "brand": "Pertamina",
+    "id": 1,
+    "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
+  },
+  {
+    "brand": "Pertamina",
+    "id": 2,
+    "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
+  },
+  {
+    "brand": "Pertamina",
+    "id": 3,
+    "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
+  },
+  {
+    "brand": "Pertamina",
+    "id": 4,
+    "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
+  },
+  {
+    "brand": "Pertamina",
+    "id": 5,
+    "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
+  },
+  {
+    "brand": "Pertamina",
+    "id": 6,
+    "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
+  },
+  {
+    "brand": "Pertamina",
+    "id": 7,
+    "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127 "
+  },
+  {
+    "brand": "Pertamina",
+    "id": 8,
+    "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127"
+  },
+  {
+    "brand": "Pertamina",
+    "id": 9,
+    "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127"
+  },
+  {
+    "brand": "Shell",
+    "id": 10,
+    "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
+  },
+  {
+    "brand": "Shell",
+    "id": 11,
+    "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
+  },
+  {
+    "brand": "Shell",
+    "id": 12,
+    "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
+  },
+  {
+    "brand": "Shell",
+    "id": 13,
+    "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  },
+  {
+    "brand": "Shell",
+    "id": 14,
+    "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  },
+  {
+    "brand": "Shell",
+    "id": 15,
+    "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  },
+  {
+    "brand": "Vivo",
+    "id": 16,
+    "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
+  },
+  {
+    "brand": "Vivo",
+    "id": 17,
+    "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
+  },
+  {
+    "brand": "Vivo",
+    "id": 18,
+    "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
+  },
+  {
+    "brand": "Vivo",
+    "id": 19,
+    "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
+  },
+  {
+    "brand": "Vivo",
+    "id": 20,
+    "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
+  },
+  {
+    "brand": "Vivo",
+    "id": 21,
+    "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
+  },
+  {
+    "brand": "Bp",
+    "id": 22,
+    "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
+  },
+  {
+    "brand": "Bp",
+    "id": 23,
+    "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
+  },
+  {
+    "brand": "Bp",
+    "id": 24,
+    "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
+  },
+  {
+    "brand": "Bp",
+    "id": 25,
+    "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  },
+  {
+    "brand": "Bp",
+    "id": 26,
+    "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  },
+  {
+    "brand": "Bp",
+    "id": 27,
+    "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
+  }
 ]
-  

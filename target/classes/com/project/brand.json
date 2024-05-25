@@ -1,0 +1,18 @@
+[
+    {
+      "bensin": "Pertamina",
+      "id": 1
+    },
+    {
+      "bensin": "Shell",
+      "id": 2
+    },
+    {
+      "bensin": "Vivo",
+      "id": 3
+    },
+    {
+      "bensin": "Bp",
+      "id": 4
+    }
+  ]

@@ -1,17 +1,20 @@
 package com.project;
 
 public class Bensin{
-    private char id;
+    private int id;
     private String name;
     private Brand brand;
     private double stock;
 
-    Bensin(char id, String name, Brand brand, double stock){
-
+    Bensin(int id, String name, Brand brand, double stock){
+        this.id = id;
+        this.name = name;
+        this.brand = brand;
+        this.stock = stock;
     }
 
-    public char getId() {
-        return id;
+    public int getId() {
+        return this.id;
     }
 
     public void setId(char id) {
@@ -19,7 +22,7 @@ public class Bensin{
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -27,11 +30,11 @@ public class Bensin{
     }
 
     public Brand getBrand() {
-        return brand;
+        return this.brand;
     }
 
     public double getStock() {
-        return stock;
+        return this.stock;
     }
 
     public void setStock(double stock) {
@@ -41,7 +44,7 @@ public class Bensin{
     @Override
     public String toString() {
         // TODO Auto-generated method stub
-        return super.toString();
+        return "ID: " + this.id + "\n" + "Nama Bensin: " + this.name + "\n" + "Brand: " + this.brand + "\n" + "Stock: " + this.stock + "\n";
     }
 
 }
