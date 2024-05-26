@@ -1,6 +1,6 @@
 package com.project;
 
-public class Bensin{
+public class Bensin extends App{
     private int id;
     private String name;
     private Brand brand;

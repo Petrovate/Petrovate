@@ -6,12 +6,13 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class JsonFileReader {
+public class JsonFileReader extends App {
+    static String FILEPATH = "src\\main\\java\\com\\project\\db\\";
     public static void searchSPBU(int p) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode arrayNode = objectMapper
-                    .readTree(new File("D:/Petrovate/Petrovate/src/main/java/com/project/db.json"));
+                    .readTree(new File(FILEPATH + "db.json"));
             for (JsonNode jsonNode : arrayNode) {
                 if (jsonNode.get("id").asInt() == p) {
                     String brand = jsonNode.has("brand") ? jsonNode.get("brand").asText() : "Field not found";
@@ -19,7 +20,7 @@ public class JsonFileReader {
                     String alamat = jsonNode.has("alamat") ? jsonNode.get("alamat").asText() : "Field not found";
 
                     System.out.println("Brand: " + brand);
-                    System.out.println("id" + id);
+                    System.out.println("id " + id);
                     System.out.println("Alamat: " + alamat);
                 }
             }
@@ -33,9 +34,9 @@ public class JsonFileReader {
             ArrayList<SPBU> SPBUList = new ArrayList<SPBU>();
             ObjectMapper objectMapper = new ObjectMapper();
             JsonNode SPBUArray = objectMapper
-                    .readTree(new File("D:/Petrovate/Petrovate/src/main/java/com/project/db.json"));
+                    .readTree(new File(FILEPATH + "db.json"));
             JsonNode brandArray = objectMapper
-                    .readTree(new File("D:/Petrovate/Petrovate/src/main/java/com/project/brand.json"));
+                    .readTree(new File(FILEPATH + "brand.json"));
             for (JsonNode SPBUDict : SPBUArray) {
                 String brandName = SPBUDict.has("brand") ? SPBUDict.get("brand").asText() : "Field not found";
                 int id = SPBUDict.has("id") ? SPBUDict.get("id").asInt() : 0;

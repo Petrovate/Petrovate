@@ -8,7 +8,7 @@ public class SPBU {
     private Bensin bensin;
 
     SPBU(int id, Brand brand, String alamat){
-      this.id = id;
+        this.id = id;
         this.brand = brand;
         this.alamat = alamat;  
     }
