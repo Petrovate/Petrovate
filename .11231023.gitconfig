@@ -1,0 +1,6 @@
+[user]
+  email = 11231023@student.itk.ac.id
+[credential]
+  username = Faedyl
+[core]
+  sshcommand = ssh -i C:\Users\twent\.ssh
