@@ -1,0 +1,55 @@
+{
+    "1111": [
+        {
+            "role": "admin",
+            "pass": "11111",
+            "id": "1"
+        },
+        {
+            "role": "admin",
+            "pass": "11112",
+            "id": "2"
+        },
+        {
+            "role": "admin",
+            "pass": "11113",
+            "id": "3"
+        },
+        {
+            "role": "admin",
+            "pass": "11114",
+            "id": "4"
+        },
+        {
+            "role": "admin",
+            "pass": "11115",
+            "id": "5"
+        },
+        {
+            "role": "admin",
+            "pass": "11116",
+            "id": "6"
+        },
+        {
+            "role": "admin",
+            "pass": "11117",
+            "id": "7"
+        },
+        {
+            "role": "admin",
+            "pass": "11118",
+            "id": "8"
+        },
+        {
+            "role": "admin",
+            "pass": "11119",
+            "id": "9"
+        }
+    ],
+    "0000": [
+        {
+            "role": "user",
+            "pass": "0000"
+        }
+    ]
+}

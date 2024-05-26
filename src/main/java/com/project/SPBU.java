@@ -1,12 +1,13 @@
 package com.project;
-public class SPBU extends JsonFileReader {
+import java.util.ArrayList;
+public class SPBU {
     
     private int id;
     private Brand brand;
     private String alamat;
     private Bensin bensin;
 
-    SPBU(char id, Brand brand, Bensin name, String alamat){
+    SPBU(int id, Brand brand, String alamat){
       this.id = id;
         this.brand = brand;
         this.alamat = alamat;  
@@ -16,7 +17,7 @@ public class SPBU extends JsonFileReader {
         return this.id;
     }
 
-    public void setId(char id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -36,8 +37,18 @@ public class SPBU extends JsonFileReader {
         this.alamat = alamat;
     }
     
-    public void printSPBU(){
-        JsonFileReader.getSPBUData(this.id);
+    public void searchSPBU(){
+        JsonFileReader.searchSPBU(this.id);
+    }
+
+    public ArrayList<SPBU> getSPBUData(){
+        return JsonFileReader.getSPBUData();
+    }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "ID: " + this.id + "\n" + "Brand: " + this.brand + "\n" + "Alamat: " + this.alamat + "\n";
     }
     
 }

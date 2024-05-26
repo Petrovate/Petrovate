@@ -1,31 +1,70 @@
 package com.project;
-import com.fasterxml.jackson.databind.JsonNode; 
-import com.fasterxml.jackson.databind.ObjectMapper; 
-import java.io.File; 
-import java.io.IOException;
-public class JsonFileReader { 
-        public static void getSPBUData(int p) {
-            try {
-                ObjectMapper objectMapper = new ObjectMapper(); 
-                JsonNode arrayNode = objectMapper.readTree(new File("D:/Petrovate/Petrovate/src/main/java/com/project/db.json"));
-                for(JsonNode jsonNode : arrayNode) { 
-                    if(jsonNode.get("id").asInt() == p){
-                    String nama = jsonNode.has("nama") ? jsonNode.get("nama").asText() : "Field not found"; 
-                    String brand = jsonNode.has("brand") ? jsonNode.get("brand").asText() : "Field not found"; 
-                    String jenis = jsonNode.has("jenis") ? jsonNode.get("jenis").asText() : "Field not found"; 
-                    int stock = jsonNode.has("stock") ? jsonNode.get("stock").asInt() : 0; 
-                    int id = jsonNode.has("id") ? jsonNode.get("id").asInt() : 0; 
-                    String alamat = jsonNode.has("alamat") ? jsonNode.get("alamat").asText() : "Field not found"; 
 
-                    System.out.println("Nama: " + nama); 
-                    System.out.println("Brand: " + brand); 
-                    System.out.println("Jenis: " + jenis); 
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class JsonFileReader {
+    public static void searchSPBU(int p) {
+        try {
+            ObjectMapper objectMapper = new ObjectMapper();
+            JsonNode arrayNode = objectMapper
+                    .readTree(new File("D:/Petrovate/Petrovate/src/main/java/com/project/db.json"));
+            for (JsonNode jsonNode : arrayNode) {
+                if (jsonNode.get("id").asInt() == p) {
+                    String brand = jsonNode.has("brand") ? jsonNode.get("brand").asText() : "Field not found";
+                    int id = jsonNode.has("id") ? jsonNode.get("id").asInt() : 0;
+                    String alamat = jsonNode.has("alamat") ? jsonNode.get("alamat").asText() : "Field not found";
+
+                    System.out.println("Brand: " + brand);
                     System.out.println("id" + id);
-                    System.out.println("Stock: " + stock); 
                     System.out.println("Alamat: " + alamat);
-                }}
-            } catch (IOException e) {
-                e.printStackTrace();
+                }
             }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+
+    public static ArrayList<SPBU> getSPBUData() {
+        try {
+            ArrayList<SPBU> SPBUList = new ArrayList<SPBU>();
+            ObjectMapper objectMapper = new ObjectMapper();
+            JsonNode SPBUArray = objectMapper
+                    .readTree(new File("D:/Petrovate/Petrovate/src/main/java/com/project/db.json"));
+            JsonNode brandArray = objectMapper
+                    .readTree(new File("D:/Petrovate/Petrovate/src/main/java/com/project/brand.json"));
+            for (JsonNode SPBUDict : SPBUArray) {
+                String brandName = SPBUDict.has("brand") ? SPBUDict.get("brand").asText() : "Field not found";
+                int id = SPBUDict.has("id") ? SPBUDict.get("id").asInt() : 0;
+                String alamat = SPBUDict.has("alamat") ? SPBUDict.get("alamat").asText() : "Field not found";
+
+                Brand brand = null;
+                for (JsonNode brandDict : brandArray) {
+                    String name = brandDict.has("brand") ? brandDict.get("brand").asText() : "Field not found";
+                    int idBrand = brandDict.has("id") ? brandDict.get("id").asInt() : 0;
+                    if (brandName.equals(name)) {
+                        brand = new Brand(name, idBrand);
+                        break;
+                    }
+                }
+
+                if (brand == null) {
+                    new Exception("Brand not found");
+                }
+
+                SPBU spbu = new SPBU(id, brand, alamat);
+                SPBUList.add(spbu);
+            }
+            return SPBUList;
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            System.out.println("Data SPBU berhasil ditampilkan");
+        }
+
+        return null;
+    };
 }
