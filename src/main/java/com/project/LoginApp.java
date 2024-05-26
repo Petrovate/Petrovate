@@ -11,12 +11,12 @@ import java.util.Scanner;
 
 public class LoginApp {
     private static Map<String, List<Validasi>> users;
-
+    static String FILEPATH = "src\\main\\java\\com\\project\\db\\";
     public static void main(String[] args) {
         try {
             // Membaca file JSON
             ObjectMapper objectMapper = new ObjectMapper();
-            users = objectMapper.readValue(new File("Validate.json"), new TypeReference<Map<String, List<Validasi>>>() {});
+            users = objectMapper.readValue(new File(FILEPATH + "Validate.json"), new TypeReference<Map<String, List<Validasi>>>() {});
 
             try (// Lakukan login
             Scanner scanner = new Scanner(System.in)) {
