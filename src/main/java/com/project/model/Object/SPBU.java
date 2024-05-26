@@ -1,5 +1,7 @@
-package com.project;
+package com.project.model.Object;
 import java.util.ArrayList;
+
+import com.project.model.Parsing.JsonFileReader;
 public class SPBU {
     
     private int id;
@@ -7,7 +9,7 @@ public class SPBU {
     private String alamat;
     private Bensin bensin;
 
-    SPBU(int id, Brand brand, String alamat){
+    public SPBU(int id, Brand brand, String alamat){
         this.id = id;
         this.brand = brand;
         this.alamat = alamat;  

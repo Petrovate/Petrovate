@@ -1,4 +1,4 @@
-package com.project;
+package com.project.model.Validasi;
 
 public class Validasi {
     private String role;

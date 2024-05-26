@@ -1,4 +1,5 @@
-package com.project;
+package com.project.model.Object;
+import com.project.App;
 
 public class Bensin extends App{
     private int id;
@@ -41,7 +42,7 @@ public class Bensin extends App{
         this.stock = stock;
     }
 
-    @Override
+
     public String toString() {
         // TODO Auto-generated method stub
         return "ID: " + this.id + "\n" + "Nama Bensin: " + this.name + "\n" + "Brand: " + this.brand + "\n" + "Stock: " + this.stock + "\n";

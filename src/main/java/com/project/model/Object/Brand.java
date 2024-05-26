@@ -1,10 +1,10 @@
-package com.project;
+package com.project.model.Object;
 
 public class Brand {
     private String brand;
     private int id;
 
-    Brand(String brand, int id){
+    public Brand(String brand, int id){
         this.brand = brand;
         this.id = id;
     }

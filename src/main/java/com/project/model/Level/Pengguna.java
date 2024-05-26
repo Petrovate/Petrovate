@@ -1,4 +1,4 @@
-package com.project;
+package com.project.model.Level;
 
 public abstract class Pengguna {
     

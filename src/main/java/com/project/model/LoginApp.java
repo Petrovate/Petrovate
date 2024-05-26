@@ -1,7 +1,7 @@
-package com.project;
-
+package com.project.model;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.project.model.Validasi.Validasi;
 
 import java.io.File;
 import java.io.IOException;
