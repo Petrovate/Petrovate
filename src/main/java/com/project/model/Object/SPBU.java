@@ -50,7 +50,7 @@ public class SPBU {
     @Override
     public String toString() {
         // TODO Auto-generated method stub
-        return "ID: " + this.id + "\n" + "Brand: " + this.brand + "\n" + "Alamat: " + this.alamat + "\n";
+        return "ID: " + this.id + "\n" + "Brand: " + this.brand.getBrand() + "\n" + "Alamat: " + this.alamat + "\n";
     }
     
 }
