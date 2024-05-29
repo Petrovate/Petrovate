@@ -124,5 +124,33 @@
             "nama": "Bp Ultimate",
             "stock": 111011
         }
+    ],
+    "10": [
+        {
+            "name": "Pertalite",
+            "stock": 111011
+        },
+        {
+            "nama": "Pertamax",
+            "stock": 111011
+        },
+        {
+            "nama": "Pertamax Turbo",
+            "stock": 111011
+        }
+    ],
+    "11": [
+        {
+            "name": "Pertalite",
+            "stock": 111011
+        },
+        {
+            "nama": "Pertamax",
+            "stock": 111011
+        },
+        {
+            "nama": "Pertamax Turbo",
+            "stock": 111011
+        }
     ]
 }
