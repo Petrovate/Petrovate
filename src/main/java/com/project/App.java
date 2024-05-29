@@ -10,6 +10,11 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 import java.io.IOException;
+import java.security.SecureRandom;
+import java.util.ArrayList;
+import java.util.Base64;
+
+import com.project.model.Object.SPBU;
 
 import com.project.model.Parsing.JsonFileReader;
 
@@ -40,9 +45,14 @@ public class App extends Application {
         return fxmlLoader.load();
     }
 
-    public static void main(String[] args) {
-        JsonFileReader.searchSPBU(1);
-        launch();
-    }
+// public static void main(String[] args){
+// private static final SecureRandom secureRandom = new SecureRandom(); //threadsafe
+// private static final Base64.Encoder base64Encoder = Base64.getUrlEncoder(); //threadsafe
 
+// public static String generateNewToken() {
+//     byte[] randomBytes = new byte[24];
+//     secureRandom.nextBytes(randomBytes);
+//     return base64Encoder.encodeToString(randomBytes);
+// }
 }
+

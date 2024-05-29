@@ -1,18 +1,18 @@
 [
     {
-      "bensin": "Pertamina",
+      "brand": "Pertamina",
       "id": 1
     },
     {
-      "bensin": "Shell",
+      "brand": "Shell",
       "id": 2
     },
     {
-      "bensin": "Vivo",
+      "brand": "Vivo",
       "id": 3
     },
     {
-      "bensin": "Bp",
+      "brand": "Bp",
       "id": 4
     }
   ]
