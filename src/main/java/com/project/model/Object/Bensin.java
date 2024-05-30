@@ -7,7 +7,7 @@ public class Bensin extends App{
     private Brand brand;
     private double stock;
 
-    Bensin(int id, String name, Brand brand, double stock){
+    public Bensin(int id, String name, Brand brand, double stock){
         this.id = id;
         this.name = name;
         this.brand = brand;
