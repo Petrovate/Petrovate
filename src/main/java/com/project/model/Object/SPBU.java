@@ -1,11 +1,12 @@
 package com.project.model.Object;
 import java.util.ArrayList;
 
-import com.project.model.Parsing.JsonFileReader;
+import com.project.model.Parsing.Json;
 public class SPBU {
     
     private int id;
     private Brand brand;
+    private String brandName;
     private String alamat;
     private Bensin bensin;
 
@@ -13,6 +14,13 @@ public class SPBU {
         this.id = id;
         this.brand = brand;
         this.alamat = alamat;  
+
+    }
+
+    public SPBU(int id, String brandName, String alamat){
+        this.id = id;
+        this.brandName = brandName;
+        this.alamat = alamat;
     }
 
     public int getId() {
@@ -40,11 +48,11 @@ public class SPBU {
     }
     
     public void searchSPBU(){
-        JsonFileReader.searchSPBU(this.id);
+        Json.searchId(this.id);
     }
 
     public ArrayList<SPBU> getSPBUData(){
-        return JsonFileReader.getSPBUData();
+        return Json.getSPBUData();
     }
 
     @Override

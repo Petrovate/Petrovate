@@ -1,13 +1,35 @@
 package com.project.model.Object;
 import com.project.App;
+import com.project.model.Object.Brand;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Bensin extends App{
+    @JsonIgnore
+    private Object hostServices; // replace Object with the actual type if you know it
     private int id;
     private String name;
-    private Brand brand;
+    private Brand Brand;
+    private String brand;
     private double stock;
+    private Object parameters; // replace Object with the actual type if you know it
 
-    Bensin(int id, String name, Brand brand, double stock){
+    public Bensin(){
+        this.id = 0;
+        this.name = "";
+        this.Brand = null;
+        this.stock = 0;
+    }
+
+    public Bensin(int id, String name, Brand brand, double stock){
+        this.id = id;
+        this.name = name;
+        this.Brand = brand;
+        this.stock = stock;
+    }
+
+    public Bensin(int id, String name, String brand, double stock){
         this.id = id;
         this.name = name;
         this.brand = brand;
@@ -30,8 +52,11 @@ public class Bensin extends App{
         this.name = name;
     }
 
-    public Brand getBrand() {
+    public String getBrandName(){
         return this.brand;
+    }
+    public Brand getBrand() {
+        return this.Brand;
     }
 
     public double getStock() {
@@ -45,7 +70,12 @@ public class Bensin extends App{
 
     public String toString() {
         // TODO Auto-generated method stub
-        return "ID: " + this.id + "\n" + "Nama Bensin: " + this.name + "\n" + "Brand: " + this.brand + "\n" + "Stock: " + this.stock + "\n";
+        if(this.Brand != null){
+            return "{ID: " + this.id + "\n" + "Nama Bensin: " + this.name + "\n" + "Brand: " + this.Brand.getBrand() + "\n" + "Stock: " + this.stock + "\n" + "}";
+        }else{
+            return "{ID: " + this.id + "\n" + "Nama Bensin: " + this.name + "\n" + "Brand: " + this.brand + "\n" + "Stock: " + this.stock + "\n" + "}";
+        }
     }
+
 
 }
