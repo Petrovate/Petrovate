@@ -7,161 +7,51 @@
   {
     "brand": "Pertamina",
     "id": 2,
-    "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
+    "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
   },
   {
     "brand": "Pertamina",
     "id": 3,
-    "alamat": "Jl. Soekarno Hatta, Batu Ampar, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76136"
+    "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127"
   },
   {
-    "brand": "Pertamina",
+    "brand": "Shell",
     "id": 4,
-    "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
+    "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
   },
   {
-    "brand": "Pertamina",
+    "brand": "Shell",
     "id": 5,
-    "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
+    "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
   },
   {
-    "brand": "Pertamina",
+    "brand": "Vivo",
     "id": 6,
-    "alamat": "Jl. Mayjend Sutoyo No.9, Klandasan Ilir, Kec. Balikpapan Kota, Kota Balikpapan, Kalimantan Timur 76113"
+    "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
   },
   {
-    "brand": "Pertamina",
+    "brand": "Vivo",
     "id": 7,
-    "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127 "
+    "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
   },
   {
-    "brand": "Pertamina",
+    "brand": "Bp",
     "id": 8,
-    "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127"
+    "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
   },
   {
-    "brand": "Pertamina",
+    "brand": "Bp",
     "id": 9,
-    "alamat": "JL.SOEKARNO HATTA KM.14, Karang Joang, North Balikpapan, Karang Joang, Kec. Balikpapan Utara, Kota Balikpapan, Kalimantan Timur 76127"
-  },
-  {
-    "brand": "Shell",
-    "id": 10,
-    "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
-  },
-  {
-    "brand": "Shell",
-    "id": 11,
-    "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
-  },
-  {
-    "brand": "Shell",
-    "id": 12,
-    "alamat": "Jl. Akses Graha Raya, RT.008/RW.004, Paku Jaya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten 15145"
-  },
-  {
-    "brand": "Shell",
-    "id": 13,
-    "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
-  },
-  {
-    "brand": "Shell",
-    "id": 14,
-    "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
-  },
-  {
-    "brand": "Shell",
-    "id": 15,
-    "alamat": "Jl. Joglo Raya No.8 7, RT.7/RW.8, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
-  },
-  {
-    "brand": "Vivo",
-    "id": 16,
-    "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
-  },
-  {
-    "brand": "Vivo",
-    "id": 17,
-    "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
-  },
-  {
-    "brand": "Vivo",
-    "id": 18,
-    "alamat": "Jl. Cilandak KKO No. 7, RT.01/ RW.07 Cilandak Timur, Ps. Minggu, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560"
-  },
-  {
-    "brand": "Vivo",
-    "id": 19,
-    "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
-  },
-  {
-    "brand": "Vivo",
-    "id": 20,
-    "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
-  },
-  {
-    "brand": "Vivo",
-    "id": 21,
-    "alamat": "Jl. Panjang No.13, RT.6/RW.5, Kedoya Utara, Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11520"
-  },
-  {
-    "brand": "Bp",
-    "id": 22,
-    "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
-  },
-  {
-    "brand": "Bp",
-    "id": 23,
-    "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
-  },
-  {
-    "brand": "Bp",
-    "id": 24,
-    "alamat": "Jl. Amd Pr. Jaya No.34, RT.001/RW.002, Pd. Bahar, Kec. Karang Tengah, Kota Tangerang, Banten 15159"
-  },
-  {
-    "brand": "Bp",
-    "id": 25,
-    "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
-  },
-  {
-    "brand": "Bp",
-    "id": 26,
-    "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
-  },
-  {
-    "brand": "Bp",
-    "id": 27,
     "alamat": "Jl. Joglo Raya No.177, RT.10/RW.3, Joglo, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11640"
   },
   {
     "brand": "Pertamina",
-    "id": 28,
+    "id": 10,
     "alamat": "Jl. Letjen Suprapto, Mekar Sari, Kec. Balikpapan Tengah, Kota Balikpapan, Kalimantan Timur 76122"
   },
   {
     "brand": "Pertamina",
-    "id": 29,
-    "alamat": "Jl. Letjen Suprapto, Mekar Sari, Kec. Balikpapan Tengah, Kota Balikpapan, Kalimantan Timur 76122"
-  },
-  {
-    "brand": "Pertamina",
-    "id": 30,
-    "alamat": "Jl. Letjen Suprapto, Mekar Sari, Kec. Balikpapan Tengah, Kota Balikpapan, Kalimantan Timur 76122"
-  },
-  {
-    "brand": "Pertamina",
-    "id": 31,
-    "alamat": "Jl. Marsma R. Iswahyudi No.72-44, Gn. Bahagia, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur 76114"
-  },
-  {
-    "brand": "Pertamina",
-    "id": 32,
-    "alamat": "Jl. Marsma R. Iswahyudi No.72-44, Gn. Bahagia, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur 76114"
-  },
-  {
-    "brand": "Pertamina",
-    "id": 33,
+    "id": 11,
     "alamat": "Jl. Marsma R. Iswahyudi No.72-44, Gn. Bahagia, Kecamatan Balikpapan Selatan, Kota Balikpapan, Kalimantan Timur 76114"
   }
 ]

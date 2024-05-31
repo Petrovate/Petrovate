@@ -1,6 +1,6 @@
 package com.project.model.Level;
 
-import com.project.model.Parsing.JsonFileReader;
+import com.project.model.Parsing.Json;
 
 public class Admin extends Pengguna{
 
@@ -9,7 +9,7 @@ public class Admin extends Pengguna{
 
     }
     public void SPUGetAllData(){
-        JsonFileReader.getSPBUData();
+        Json.getSPBUData();
     }
 
 }
